@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Pacifico|Slabo+27px');
+
+* {
+	margin:unset ;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Slabo 10 px', serif;
+	overflow: hidden;
+}
+
+
+header {
+	z-index: 1000;
+	position: absolute;
+    width: 100%;
+    height: 110px;
+    background: #333;
+    color: #fff;
+}
+
+
+.mycontenedor {
+	z-index: 2000;
+	position: absolute;
+	top: 65px;
+    width: 100%;
+    height:100%;
+    background: rgb(255, 255, 255);
+	overflow: auto;
+ 
+}
+
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+
+
+
+
+
+h1{
+	/*border: 1px solid red;*/
+	width: 20%;
+	float: left;
+	display: inline-block;
+	text-align: center;	
+    font-family: 'Courgette', cursive;
+    font-family: 'Cuprum', sans-serif;
+    margin-top: 12px;
+}
+
+.menu{
+	margin-top: 2px; 
+	width: 80%;
+	float: left;
+	/*border: 3px solid blue;*/
+
+}
+
+nav{
+	width: 1080px;
+	/*border: 4px solid black;*/
+	margin: auto;
+}
+
+nav li{
+	text-decoration: none;
+	/*padding: 0px 0px 0px 20px;*/
+	display: table-cell;
+	/*border: 3px solid yellow;*/
+}
+
+nav ul{
+ 	display: table;
+ 	width: 90%;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#informacion{
+	background: #333;
+	color: #fff;
+	text-align: center;
+}
+
+#informacion .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.imagenes{
+	margin: 20px;
+}
+
+.imagenes img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
+	
+.contenedor{
+	height: 700px;
+	margin: 0;
+}
+
+	#col_izq{
+		height: 350px;
+		float: left;
+		width: 33.3%;
+		background-color: #00aaff;
+		/*border: 3px solid red;*/
+	}
+
+	#col_cen{
+		height: 350px;
+		float: left;
+		width: 33.3%;
+		background-color: #00aaff;
+		/*border: 3px solid yellow;*/
+	}
+
+	#col_der{
+		height: 350px;
+		float: right;
+		width: 33.4%;
+		background-color: #00aaff;
+		/*border: 3px solid blue;*/
+		}
+
+	
+
+h4{
+	width: 88%;
+	display: inline-block;
+	float: left;
+	padding: 0px 30px 0px 30px;	
+	text-align: center;	
+    margin-top: 15px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    /*border: 3px solid green;*/
+}
+
+#col_izq li{
+	width: 400px;
+	padding: 0px 50px 0px 50px;
+	text-align: left;
+	font-size: 20px;
+	color: white;
+	/*border: 2px solid orange;*/
+}
+
+#col_cen li{
+	width: 400px;
+	padding: 0px 50px 0px 50px;
+	text-align: left;
+	font-size: 20px;
+	color: white;
+	/*border: 2px solid orange;*/
+
+}
+
+#col_der li{
+	width: 400px;
+	padding: 0px 50px 0px 50px;
+	text-align: left;
+	font-size: 20px;
+	color: white;
+	/*border: 2px solid orange;*/
+}
+
+
+
+
+*{box-sizing:border-box;}
+
+		.container{
+			width:70%;
+			max-width:900px;
+			padding:32px 64px;
+			margin:auto;
+		}
+
+		.social{
+			/*las imágenes usadas tienen width de 48px*/
+			width:48px;
+			position:fixed;
+			top:50px;
+			right:0;
+		}
+
+		/* Extra centrado vertical*/
+
+		.social{
+			/*border:1px solid #000;*/
+			top:50%;
+			height:205px;
+			/*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+			margin-top:-100px;
+		}
+
+
+
+
+		footer {
+			background-color: black;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			color: white;
+		  }
+
+
+
+
+
+

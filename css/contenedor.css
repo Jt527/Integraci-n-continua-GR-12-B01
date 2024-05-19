@@ -1,0 +1,19 @@
+.contenedor{
+  background: #EED0C9;
+
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, 100px); 
+}
+.caja_1{
+  width: 100px;
+  height: 100px;
+  background-color: #76FF54;
+  text-align: center;
+}
+.caja_2{
+  width: 100px;
+  height: 100px;
+  background-color: #E97C2B;
+  text-align: center;
+}

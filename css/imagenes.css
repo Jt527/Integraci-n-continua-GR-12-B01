@@ -1,0 +1,175 @@
+
+* {
+	margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+	background: url(../img/fondo_cotactenos.jpg) no-repeat center fixed;
+	-webkit-bacground-size:cover;
+	-moz-bacground-size:cover;
+	background-size: cover; 
+}
+
+.marco{
+	color: #fff;
+	width: 1350px;
+	height: 1200px;
+	background: rgba(0,0,0, 0.8);
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+
+.galeria{
+	width: 90%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+/* ################################################################## 
+
+PENDINETE REVISAR 
+
+*/
+
+header {
+    width: 100%;
+    height: 65px;
+    background: #333;
+    color: #fff;
+}
+
+h1{
+	/*border: 1px solid red;*/	
+	width: 20%;
+	float: left;
+	display: inline-block;
+	text-align: center;	
+    font-family: 'Courgette', cursive;
+    font-family: 'Cuprum', sans-serif;
+    margin-top: 12px;
+}
+
+.menu{
+	margin-top: 22px;
+	width: 80%;
+	float: left;
+}
+
+nav{
+	width: 1080px;
+	/*border: 4px solid black;*/
+	margin: auto;
+}
+
+nav li{
+	text-decoration: none;
+	padding: 0px 20px 0px 20px;
+	display: table-cell;
+}
+
+nav ul{
+ 	display: table;
+ 	width: 87%;
+ 	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/* ################################################################## */
+
+
+.imagenes{
+	margin: 20px;
+}
+
+.imagenes img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 4px solid #fff;
+}
+
+
+.galeria li{
+	margin: 5px;
+}
+
+.galeria img{
+	width: 300px;
+	height: 200px;
+}
+
+.ventana{
+	display: none;
+}
+
+.ventana:target{
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0, 0.8);
+	top: 0;
+	left: 0;
+	padding-top: 200px;
+	width: 100%;
+	height: 100%;
+}
+
+.imagen{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ventana .imagen a{
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.ventana .imagen img{
+	width: 600px;
+	height: 100%
+	max-width: 100%;
+	border: 7px;
+	box-sizing: border-box;
+}
+
+.cerrar {
+	top: 0;
+	right: 20px;
+	position: absolute;
+    display: block;
+    margin: 15px auto;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#imgs{
+	background: #rgba(0,0,0, .2);
+	color: #fff;
+	text-align: center;
+}
+
+#imgs .cont{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+

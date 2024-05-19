@@ -1,0 +1,324 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+   background-image: url(../img/fondo_cotactenos.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   font-family: monospace;	
+   margin: 0;
+   box-sizing: border-box;
+   background-color: #C0C0C0;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    background: #333;
+    color: #fff;
+}
+
+h1{
+	/*border: 1px solid red*/
+	width: 20%;
+	float: left;
+	display: inline-block;
+	text-align: center;	
+    font-family: 'Courgette', cursive;
+    font-family: 'Cuprum', sans-serif;
+    margin-top: 12px;
+}
+
+.menu_prin{
+	margin-top: 20px; 
+	width: 79%;
+	float: left;
+	/*border: 1px solid blue;*/
+}
+
+nav{
+	width: 1080px;
+	/*border: 1px solid black;*/
+	margin: auto;
+}
+
+nav li{
+	text-decoration: none;
+	padding: 0px 20px 0px 20px;
+	display: table-cell;
+}
+
+nav ul{
+ 	display: table;
+ 	width: 87%;
+ 	font-family: 'Montserrat', sans-serif;
+ 	/*border: 1px solid red;*/
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+	
+.marco {
+	color: #fff;
+	width: 1500px;
+	height: 920px;
+	background: rgba(0,0,0, 0.9);
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	border-radius:12px;
+	}
+
+.tabla{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	background:#22A4AA; 
+	padding-top: : 40px;
+	}
+
+.tablax4 {
+	float: left;
+	width: 375px;
+	height: 900px;
+	margin-top: 20px;
+	transition: .5s; 
+	}
+
+	.tablax4:hover {
+	transform: scale(1.20);
+	}
+
+.tablaxd {
+	float: left;
+	width: 375px;
+	height: 1000px;
+	margin-top: 10px;
+	transition: .5s; 
+	}
+
+.tablaxd:hover {
+	transform: scale(1.25);
+	}
+
+.tablax3 {
+	float: left;
+	width: 375px;
+	height: 900px;
+	margin-top: 20px;
+	transition: .5s; 
+	}
+
+.tablax3:hover {
+	transform: scale(1.20);
+	}
+
+.tablaxU {
+	float: right;
+	width: 375px;
+	height: 900px;
+	margin-top: 20px;
+	transition: .6s; 
+	}
+
+	.tablaxU:hover {
+	transform: scale(1.20);
+	}
+
+.caja-precio {
+	border: 2px solid #22A4AA;
+	background:#30353c;
+	border-radius:12px;
+	}
+
+.icono-precio {
+	color:#85c34a;
+	padding-top:20px;
+	font-size: 3em;
+	padding-bottom:10px; 
+	}
+
+.caja-precio h2{
+	color: #22A4AA;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 20px;	
+	font-size: 30px;
+	font-family: 'Courgette', cursive;
+    font-family: 'Cuprum', sans-serif;
+	}
+
+ h3{
+	color: #22A4AA;
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 20px;	
+	font-size:20px;
+	font-family: 'Courgette', cursive;
+    font-family: 'Cuprum', sans-serif;
+	}  
+
+.precio-1 {
+	color:#22A4AA;
+	font-size: 40px;
+    font-weight: bold;
+	}
+
+.dolar {
+	font-size: 20px;
+	color:#22A4AA;
+	vertical-align: super;
+	font-family: 'Courgette', cursive;
+    font-family: 'Cuprum', sans-serif;
+    }
+
+.duracion {
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+    font-family: 'Cuprum', sans-serif;
+	color:#999;
+	vertical-align: text-bottom;
+	}
+
+.content{
+	font-size: 15px;
+	color:white;
+	vertical-align: text-bottom;
+	font-family: 'Courgette', cursive;
+    font-family: 'Cuprum', sans-serif;
+    margin-left: 12px;
+    margin-right: 12px;
+  	}
+
+.content2{
+	font-size: 15px;
+	color:#777;
+	vertical-align: text-bottom;
+	font-family: 'Courgette', cursive;
+    font-family: 'Cuprum', sans-serif;
+    margin-left: 12px;
+    margin-right: 12px;
+  	}
+
+.lista-precios{
+	list-style: none;
+	padding: 0px 0;
+	color:white;
+	padding-bottom:15px;
+	}
+
+.lista-preciosdestacado {
+	list-style: none;
+	padding: 10px 0;
+	color:#777;
+	padding-bottom:20px;
+	}
+
+.lista-espacios {
+	padding: 0.25em;
+	font-size: 15px;
+	font-family: 'Courgette', cursive;
+    font-family: 'Cuprum', sans-serif;
+    }	
+
+.boton-comprar{
+	margin-bottom:35px; 
+	transition: .5s;
+	}
+
+  .boton-comprar:hover {
+   	transform: scale(1.30);
+    }
+
+.comprar-a{
+	background:#22A4AA;
+	text-decoration: none; 
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;  
+    padding: 10px 70px;
+    letter-spacing: 1px;
+    width: 90%;
+    font-size: 25px;
+    border-radius: 15px;
+    }
+
+.comprar-a:hover {
+	background:#777;
+	}
+
+.destacado  {
+	background-color: #fff;
+	box-shadow: 0 0 8 px (0,0,0,0.9);
+	z-index: 500;
+	}
+
+.destacado h2 {
+	color: #30353c;
+    font-size: 30px; 
+	}
+
+.destacado.icono-precio {
+	font-size: 4em; 
+	}
+
+.destacado.comprar-a:hover {
+	background:#777;
+	}
+
+@media screen and (max-width:750px){
+	.marco {
+    	width: 210px;	
+	}
+
+	.tablax4 {
+    	width: 210px;	
+	}
+
+    .tablaxd {
+    	width: 210px;	
+	}
+
+   .tablax3 {
+    	width: 210px;	
+	}
+
+   .tablaxU {
+    	width: 210px;	
+	}
+
+	.caja-precio {
+		padding: 4px 0;
+	}
+
+   .lista-precios{
+      font-size: 20px:;
+    }
+
+   .boton-comprar{
+   	  margin: 0px;
+      padding:30px 5px;
+      font-size: 5px:;
+      transition: .3s;
+    }
+
+     .boton-comprar:hover {
+   	  transform: scale(1.20);
+    }
+   .comprar-a{
+	background:#22A4AA;
+	text-decoration: none; 
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;  
+    padding: 8px 20px;
+    letter-spacing: 1px;
+    width: 90%;
+    font-size: 15px;
+    border-radius: 10px;
+    }
+	
