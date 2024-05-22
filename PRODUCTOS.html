@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PoliPetSupermarket</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Cuprum" rel="stylesheet">
+	<script src="./js/main.js"></script>
+	<style>
+
+		.fila{
+
+				display: block;
+				float: left;
+				width: 170px;
+				text-align: center;
+				float: left;
+				margin: 8px;
+
+		}	
+
+	</style>
+</head>
+
+<!--en esta primera parte se han definido el titulo, los estilos y se creo la calse .fila la cual nos permite hacer la distribusion de las imagenes
+como se desea segun el plan mockus--> 
+
+
+<body >
+	<!--Cabecera-->
+<header>
+	<h1 style="text-align: center;">PoliPetSupermarket</h1>
+	
+
+	<!--menu-->
+	<!--se empieza la creacion de los menus para empezar a dar forma al poryecto y se pone a disposicion ya un modelo tipo
+	localhost para el repositorio de datos de la compra-->
+	<section class="menu">
+	<center>
+		<nav>
+			<ul>
+			<li><a href="INDEX.html"><i class="icon-casa"></i> QUIENES SOMOS</a> </li>
+			
+			 <li><a href="REGISTRO.html"><i class="icon-lupa"></i> REGISTRO</a> </li>
+	          <li><a href="PRODUCTOS.html"><i class="icon-contacto"></i> PRODUCTOS</a> </li>
+			  <li><a href="MARCAS.html"><i class="icon-contacto"></i> MARCAS</a> </li>
+			  <li><a href="PRECIOS ESPECIALES.html"><i class="icon-contacto"></i> PRECIOS ESPECIALES</a> </li>
+			  
+	          <li><a href="carrito.html"><i class="icon-precio"></i>CARRITO DE COMPRAS  <div id="countCarrito" style="color:yellow ;display: inline-block;"></div></a> </li>   
+	          <li><a href="contactenos.html"><i class="icon-question"></i>CONTACTENOS</a> </li>
+       		</ul>		
+   		</nav>
+	</center>
+    </section>
+</header>
+
+<div class="mycontenedor" style="" >
+
+<!--se realiza la distribucion de las imagenes las cuales se les asigna las dimensiones asi como tambien su individualizacion de cada producto
+su valor comercial y la opcion de compra-->
+
+<center>
+
+
+	<div style="width: 860px;height: 100%;">
+
+		<div class="fila">
+			
+			<img src="imagenes/comida/c1.jpg" align="" border="5" width="180" height="200"> 
+			<h2 style="">Filpo Adulto 30kg</h2>
+			<div style ="">Llevalo por $110.000</div>
+			<input type="button" value="Comprar Item" item="Filpo Adulto 30kg" precio="110000" style="">
+	
+		</div>
+
+		
+		<div class="fila">
+			
+			<img src="imagenes/comida/c2.jpg" align="" border="5" width="200" height="200"> 
+			<h2 style="">Dog Chow Adulto 25kg</h2>
+			<div style="">Llevalo por $98.000</div>
+			<input type="button" value="Comprar Item" item="Dog Chow Adulto 25kg" precio="98000" style="">
+	
+		</div>
+
+		<div class="fila">
+			
+			<img src="imagenes/comida/c3.jpg" align="" border="5" width="200" height="200"> 
+			<h2 style="">Dogourmet Cachorro 25kg</h2>
+			<div style="">Llevalo por $87.000</div>
+			<input type="button" value="Comprar Item" item="Dogourmet Cachorro 25kg" precio="87000" style="">
+	
+		</div>
+
+		<div class="fila">
+			
+			<img src="imagenes/comida/c4.jpg" align="" border="5" width="200" height="200"> 
+			<h2 style="">Pedigree Adulto 7kg</h2>
+			<div style="">Llevalo por $57.000</div>
+			<input type="button" value="Comprar Item" item="Pedigree Adulto 7kg" precio="57000" style="">
+	
+		</div>
+
+	</div>
+
+		
+	
+</center>
+		
+		
+<center>
+
+
+	<div style="width: 860px;height: 100%;">
+
+		<div class="fila">
+			
+			<img src="imagenes/comida/c5.jpg" align="" border="5" width="200" height="200"> 
+			<h2 style="">Chunky Adulto 15kg</h2>
+			<div style ="">Llevalo por $48.000</div>
+			<input type="button" value="Comprar Item" item="Chunky Adulto 15kg" precio="48000" style="">
+	
+		</div>
+
+		
+		<div class="fila">
+			
+			<img src="imagenes/comida/c6.jpg" align="" border="5" width="200" height="200"> 
+			<h2 style="">Ringo Adulto 25kg </h2>
+			<div style="">Llevalo por $62.000</div>
+			<input type="button" value="Comprar Item" item="Ringo Adulto 25kg " precio="62000" style="">
+	
+		</div>
+
+		<div class="fila">
+			
+			<img src="imagenes/comida/c7.jpg" align="" border="5" width="200" height="200"> 
+			<h2 style="">Raza Adulto 25kg</h2>
+			<div style="">Llevalo por $58.000</div>
+			<input type="button" value="Comprar Item" item="Raza Adulto 25kg" precio="58000" style="">
+	
+		</div>
+
+		<div class="fila">
+			
+			<img src="imagenes/comida/c8.jpg" align="" border="5" width="200" height="200"> 
+			<h2 style="">Topdog Adulto 15kg</h2>
+			<div style="">Llevalo por $47.000</div>
+			<input type="button" value="Comprar Item" item="Topdog Adulto 15kg" precio="47000" style="">
+	
+		</div>
+
+	</div>
+
+		
+	
+</center>		
+		
+
+	
+	</div>
+		
+		
+			
+</body>
+</html>
