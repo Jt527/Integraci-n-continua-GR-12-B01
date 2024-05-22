@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+     <title>Formulario de contácto</title>
+     <meta charset="UTF-8">
+  	 <link rel="stylesheet" href="css/contactenos.css">
+     <link rel="stylesheet" type="text/css" href="css/fontello.css">
+     <link href="https://fonts.googleapis.com/css?family=Courgette|Cuprum" rel="stylesheet">  
+     <script src="./js/main.js"></script> 
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <h1>PoliPetSupermarket</h1>
+        <section class="menu">
+        <center>
+          <nav>
+            <ul>
+                    <li><a href="inicio.html"><i class="icon-casa"></i> QUIENES SOMOS</a> </li>
+                    <li><a href="B1.html"><i class="icon-lupa"></i> REGISTRO</a> </li>
+                    <li><a href="PA.html"><i class="icon-contacto"></i> PRODUCTOS</a> </li>
+                    <li><a href="PP.html"><i class="icon-contacto"></i> MARCAS</a> </li>
+                    <li><a href="PN.html"><i class="icon-contacto"></i> PRECIOS ESPECIALES</a> </li>
+                    <li><a href="carrito.html"><i class="icon-precio"></i>CARRITO DE COMPRAS  <div id="countCarrito" style="color:yellow ;display: inline-block;"></div></a> </li>   
+                    <li><a href="contactenos.html"><i class="icon-question"></i>CONTACTENOS</a> </li>
+            </ul>
+          </nav>
+        </center>
+          </section>
+      </header>
+
+      <div class="contenido">
+        <form action="">       
+           <h2>CONTÁCTENOS</h2>
+           <input type="text" name="Nombre" placeholder="Nombre">
+           <input type="Email" name="Email" placeholder="Email">
+           <input pattern="[0-9]{7}" name="Telefono" placeholder="Teléfono">
+           <textarea name="Mensaje" placeholder="Escriba aquí su mensaje o pregunta"></textarea>
+           <input type="submit" value="ENVIAR" id="boton">         
+        </form>
+        </div>
+      </div>
+  </body>
+</html>
