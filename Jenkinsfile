@@ -12,6 +12,9 @@ pipeline {
         stage('Build') {
             steps {
                 script {
+                    bat 'docker stop tienda-perros-frontend || true'
+                    bat 'docker rm tienda-perros-frontend || true'
+                    bat 'docker rmi tienda-perros-frontend || true'
                     docker.build('tienda-perros-frontend', '.')
                 }
             }
